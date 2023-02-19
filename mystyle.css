@@ -1,0 +1,159 @@
+body{
+margin-top: 100px;
+padding-top: 0px;}
+#content{
+/*background-image: url("medicine.jpg");*/
+background-color: whitesmoke;
+background-position-x: 200px;
+width:1000px;
+height: 530px;
+
+/*background-color: #b4dcfe;*/
+background-repeat: no-repeat;
+font-family: sans-serif;
+	border-radius: 10px;
+}
+.userW{
+margin-left:75%;
+font-size:15px;
+font-family:sans-serif;
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+	width:  100px;
+    background: #1c8adb;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+    border: none;
+     border-bottom: 1px solid darkgray;
+   
+    outline: none;
+    height: 20px;
+    color:black;
+    font-size: 16px;
+}
+#tab_1,#tab_2,#tab_3,#tab_4{
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+
+div #left_column
+{
+background: rgb(213, 206, 206);
+height: 530px;
+}
+#header
+{
+margin-top: 0px;
+margin-right: 400px;
+margin-bottom: 0px;
+position: relative;
+bottom:100px;
+width: 1000px;
+height: 100px;
+background: rgb(213, 206, 206);
+
+}
+.ran {
+margin-left: 350px;
+font-size: 4vw;
+color: #fff;
+}
+
+#left_column {
+
+float: left;
+position: relative;
+bottom: 100px;
+
+background: #00CED1;
+
+
+}
+
+#main {
+clear: all;
+width: 780px;
+height: 470px;
+
+}
+.imgc{
+	margin-top: -200px;
+	margin-left: 700px;
+	height: 16px;
+	width: 20px;
+}
+
+.dd{
+	margin-top: -200px;
+	font-family: sans-serif;
+	font-size: 30px;
+	color:red;
+}
+.ddc{
+	margin-top: -70px;
+    margin-left: 200px;
+	font-family: sans-serif;
+	font-size: 18px;
+	color:green;
+}
+
+/*Vertical Menu*/
+#button {
+width: 12.5em;
+
+
+font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-serif;
+background: rgb(213, 206, 206);
+color: rgb(213, 206, 206);
+}
+#button ul{
+list-style: none;
+margin: 0; 
+padding: 0;
+border: none;
+}
+#button li{
+border-bottom: 3px solid white;
+margin: 0;
+list-style: none;
+list-style-image: none;
+}
+#button li a{
+display: block;
+padding: 5px 5px 5px 0.5em;
+border-left: 10px rgb(61, 58, 58);
+border-right: 10px rgb(61, 58, 58);
+background-color: rgb(61, 58, 58);
+color: #fff;
+text-decoration: none;
+width: 100%;
+}
+html>body #button li a{
+width: auto;
+}
+#button li a:hover {
+border-left: 10px solid #1c64d1;
+border-left: 10px solid #56a3e0;
+background-color: #2586d7;
+color: #fff;
+}
+
+#footer{
+width: 900px;
+height: 505px;
+
+clear: all;
+border-top: solid 2px blue;
+font-family:sans-serif;
+}
+
